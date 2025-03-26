@@ -16,7 +16,7 @@ sudo apt-get install ros-noetic-hector-trajectory-server ros-noetic-slam-gmappin
 ### 3.1 Clone repository:
 ```
     cd ~/catkin_ws/src
-    git clone https://github.com/wh200720041/warehouse_simulation_toolkit.git
+    git clone https://github.com/jihyun9777/RB-Y1_SLAM_Simulation.git
     cd ..
     catkin_make
     source ~/catkin_ws/devel/setup.bash
