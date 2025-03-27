@@ -16,7 +16,7 @@
   <arg name="y_pos" default="0"/>
   <arg name="z_pos" default="0"/>  
 
-  <!--<param name="robot_description" textfile="$(find warehouse_simulation)/urdf/rby2.urdf"/>-->
+  <!--<param name="robot_description" textfile="$(find warehouse_simulation)/urdf/rby1.urdf"/>-->
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(find warehouse_simulation)/urdf/pioneer3dx.xacro"/>
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"
       args="-urdf -model rby1 -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
