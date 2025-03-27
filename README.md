@@ -7,13 +7,13 @@ Ubuntu 64-bit 20.04.
 
 ROS Noetic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
 
-### 2.2. **ROS Package**
+### 1.2. **ROS Package**
 ```
 sudo apt-get install ros-noetic-hector-trajectory-server ros-noetic-slam-gmapping ros-noetic-navigation
 ```
 
-## 3. Build 
-### 3.1 Clone repository:
+## 2. Build 
+### 2.1 Clone repository:
 ```
     cd ~/catkin_ws/src
     git clone https://github.com/jihyun9777/RB-Y1_SLAM_Simulation.git
@@ -22,18 +22,18 @@ sudo apt-get install ros-noetic-hector-trajectory-server ros-noetic-slam-gmappin
     source ~/catkin_ws/devel/setup.bash
 ```
 
-### 3.2 Launch ROS
+### 2.2 Launch ROS
 ```
     roslaunch warehouse_simulation warehouse_simulation.launch
 ```
 Note that it takes a few minutes to load model upon first launch
 
-### 3.3 Autonomous Navigation
+### 2.3 Autonomous Navigation
 You may set target points in RVIZ and the robot will navigate to the location in gazebo.
 1. click 2d nav goal button on rviz
 2. click any points you want on the map
 
-## 4.Acknowledgements
+## 3.Acknowledgements
 Thanks for the great work from (https://github.com/wh200720041/warehouse_simulation_toolkit.git).
 
 
