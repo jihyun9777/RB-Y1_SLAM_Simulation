@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>warehouse_simulation</name>
+  <name>SLAM_simulation</name>
   <version>0.0.0</version>
   <description>The warehouse_simulation package</description>
 

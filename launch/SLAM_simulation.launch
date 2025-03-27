@@ -28,8 +28,12 @@
 
 
 <!-- keyboard control 
-  <node name="key_control" pkg="warehouse_simulation" type="key_control" respawn="false" output="screen"/>
+  <node name="key_control" pkg="SLAM_simulation" type="key_control" respawn="false" output="screen"/>
 -->
+
+<!-- scan data  -->
+  <node pkg="SLAM_simulation" type="scan_data.py" name="scan_data" output="log"/>
+
 <!-- Localization  -->
   <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="log">
     <param name="maxRange" value="10"/>
