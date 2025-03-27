@@ -24,7 +24,7 @@ sudo apt-get install ros-noetic-hector-trajectory-server ros-noetic-slam-gmappin
 
 ### 2.2 Launch ROS
 ```
-    roslaunch warehouse_simulation warehouse_simulation.launch
+    roslaunch SLAM_simulation SLAM_simulation.launch
 ```
 Note that it takes a few minutes to load model upon first launch
 
